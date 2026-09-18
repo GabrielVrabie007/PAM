@@ -1,0 +1,28 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Flutter / Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/generated_plugin_registrant.dart
+
+# Config local (cai absolute - nu se versioneaza)
+**/android/local.properties
+**/android/key.properties
+**/*.keystore
+**/*.jks
+
+# Artefacte
+*.apk
+*.aab
+*.ipa
+
+# Claude
+.claude/
